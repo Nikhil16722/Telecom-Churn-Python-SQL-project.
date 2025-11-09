@@ -2,6 +2,7 @@
 ## Telecom Customer Churn Analysis (Python + SQL)
 
 **Author:** Nikhil Lingala
+
 **Tools Used:** Python, Pandas, Matplotlib, DuckDB SQL, Jupyter/Kaggle Notebook
 
 ---
@@ -110,7 +111,7 @@ plt.ylabel("Churn %")
 plt.title("Churn % by Contract Type")
 plt.show()
 ```Churn % by Contract Type
-<img src="images/churn_by_contract.png" width="500"/>
+<img src="churn_by_contract.png" width="500"/>
 
 Insight:
 Month-to-Month contract customers churn the most (45.8%).
@@ -125,7 +126,7 @@ plt.xticks(rotation=45)
 plt.title("Churn Count by Reason Category")
 plt.show()
 ```Churn Customers by Reason Category
-<img src="images/churn_reason_category.png" width="500"/>
+<img src="churn_reason_category.png" width="500"/>
 
 Insight:
 Most churners are leaving due to Competitor.
@@ -168,3 +169,4 @@ Second reason is Attitude / Dissatisfaction.
 * Deploy dashboard + notebook as web report
 
 ---
+
