@@ -104,13 +104,14 @@ ORDER BY churn_pct DESC;
 
 #### Churn % by Contract Type
 
-```python
+python
 plt.figure(figsize=(6,5))
 plt.bar(contract_df['Contract'], contract_df['churn_pct'])
 plt.ylabel("Churn %")
 plt.title("Churn % by Contract Type")
 plt.show()
-```Churn % by Contract Type
+Churn % by Contract Type
+![Sample](churn_by_contract.png.png)
 <img src="churn_by_contract.png.png" width="500"/>
 
 Insight:
@@ -169,5 +170,6 @@ Second reason is Attitude / Dissatisfaction.
 * Deploy dashboard + notebook as web report
 
 ---
+
 
 
