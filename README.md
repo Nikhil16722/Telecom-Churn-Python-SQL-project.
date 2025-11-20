@@ -111,7 +111,7 @@ plt.ylabel("Churn %")
 plt.title("Churn % by Contract Type")
 plt.show()
 ```Churn % by Contract Type
-<img src="churn_by_contract.png" width="500"/>
+<img src="churn_by_contract.png.png" width="500"/>
 
 Insight:
 Month-to-Month contract customers churn the most (45.8%).
@@ -169,4 +169,5 @@ Second reason is Attitude / Dissatisfaction.
 * Deploy dashboard + notebook as web report
 
 ---
+
 
