@@ -111,7 +111,6 @@ plt.ylabel("Churn %")
 plt.title("Churn % by Contract Type")
 plt.show()
 Churn % by Contract Type
-![Sample](churn_by_contract.png.png)
 <img src="churn_by_contract.png.png" width="500"/>
 
 Insight:
@@ -120,14 +119,14 @@ This clearly shows short term contract = churn risk.
 
 #### Churn Count by Reason
 
-```python
+python
 plt.figure(figsize=(6,5))
 plt.bar(reason_df['Churn Category'], reason_df['customers'])
 plt.xticks(rotation=45)
 plt.title("Churn Count by Reason Category")
 plt.show()
-```Churn Customers by Reason Category
-<img src="churn_reason_category.png" width="500"/>
+Churn Customers by Reason Category
+<img src="churn_reason_category.png.png" width="500"/>
 
 Insight:
 Most churners are leaving due to Competitor.
@@ -170,6 +169,7 @@ Second reason is Attitude / Dissatisfaction.
 * Deploy dashboard + notebook as web report
 
 ---
+
 
 
 
